@@ -1,0 +1,9 @@
+* {
+    margin: auto 0;
+    padding: 0;
+}
+
+#wrapper {
+    background: url("/static/imgs/doge.jpeg") content-box;
+    background-repeat: no-repeat;
+}
