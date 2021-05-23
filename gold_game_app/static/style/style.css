@@ -1,9 +1,74 @@
 * {
     margin: auto 0;
     padding: 0;
+    color: #00539c;
+}
+
+body {
+    height: 100%;
 }
 
 #wrapper {
-    background: url("/static/imgs/doge.jpeg") content-box;
     background-repeat: no-repeat;
+    background-image: url("/static/imgs/dogecoin.jpeg");
+    background-color: #cccccc;
+    height: 800px;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+h1 {
+    text-align: center;
+    color: #00539c;
+    padding:15px
+}
+
+#activity {
+    border: solid darkgray 1px;
+    border-radius: 4.5px;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.4);
+    /* background-color: rgba(255, 231, 201, 0.5); */
+    text-align: center;
+    margin: 1.5em;
+}
+
+.location {
+    text-align: center;
+    border: solid darkgray 1px;
+    border-radius: 4.5px;
+    /* background-color: rgba(255, 231, 201, 0.5); */
+    /* background-color: rgba(255, 247, 226, 0.5); */
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 20px;
+}
+
+#scoreboard {
+    text-align: center;
+    border: solid darkgray 1px;
+    border-radius: 4.5px;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 15px;
+    margin-left: 25px;
+}
+
+.display-3 {
+    margin-left: -25px;
+}
+
+#log {
+    overflow-y: auto;
+    text-align: center;
+    height:160px;
+    margin-top: -5px;
+}
+
+#gif {
+    height: 35px;
+    width: auto;
 }
